@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+html {
+  font-family: 'Trebuchet MS', sans-serif;
+  word-wrap: break-word;
+}
+
+a {
+  color: #888888;
+  text-decoration: none;
+}
+
+nav {
+  display: inline-block; /* 1行で表示 */
+  box-shadow: 0 1px 0px rgba(0,0,0, 1.0);
+}
+
+nav > .pure-menu-heading {
+  float: left; /* headingは左詰め */
+}
+
+nav > ul {
+  float: right; /* 各要素は右詰め */
+}
+
+/* ただし、スマホなどの横幅が足りない画面では右づめ縦2行 */
+@media screen and (max-width: 500px) {
+  nav > ul {
+    float: left;
+  }
+}
+
+.center {
+  text-align: center;
+  margin: auto auto;
+}
+
+
+.pure-menu-link {
+  color: #888888;
+}
+
+.pure-menu-selected {
+  color: #000000;
+}
+
+/* ドロップダウンメニューに囲いと影 */
+.pure-menu-children {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0px 1px 1px 1px; 
+  box-shadow: 5px 5px 2px rgba(0,0,0, 0.1);
+}
+

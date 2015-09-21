@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.pure-g [class*='pure-u'] {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+#padding {
+  height: 100px;
+}
+
+#avatar > .pure-img {
+  max-width: 80%;
+}
+
+@media screen and (min-width: 35.5em) {
+  #avatar > .pure-img {
+    max-width: 60%;
+  }
+}
+
+
+#accounts {
+  font-size: 150%;
+}
+
+
+#sns-icons > li {
+ display: inline;
+ margin: 0px 5px;
+}
+
