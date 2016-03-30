@@ -3,3 +3,8 @@
 main {
   margin: 5% 5%;
 }
+
+i.fa:after {
+  content: '\00a0';
+}
+
