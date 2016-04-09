@@ -27,7 +27,11 @@
     <!-- 一番上のバー -->
     <header>
       <nav class="pure-menu pure-menu-horizontal">
+        {% if  page.title == "TASUTEN.GITHUB.IO" %}
         <a class="pure-menu-heading pure-menu-selected" href="/"><i class="fa fa-home"></i> TASUTEN.GITHUB.IO</a>
+        {% else %}
+        <a class="pure-menu-heading" href="/"><i class="fa fa-home"></i> TASUTEN.GITHUB.IO</a>
+        {% endif %}
 
         <ul class="pure-menu-list">
           <li class="pure-menu-item"><a href="/profile/" class="pure-menu-link">Profile</a></li>
