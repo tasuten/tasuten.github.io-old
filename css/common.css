@@ -10,22 +10,22 @@ a {
   text-decoration: none;
 }
 
-nav {
+#menuBar {
   display: inline-block; /* 1行で表示 */
   box-shadow: 0 1px 0px rgba(0,0,0, 1.0);
 }
 
-nav > .pure-menu-heading {
+#menuBar > .pure-menu-heading {
   float: left; /* headingは左詰め */
 }
 
-nav > ul {
+#menuBar > ul {
   float: right; /* 各要素は右詰め */
 }
 
 /* ただし、スマホなどの横幅が足りない画面では右づめ縦2行 */
 @media screen and (max-width: 500px) {
-  nav > ul {
+  #menuBar > ul {
     float: left;
   }
 }
