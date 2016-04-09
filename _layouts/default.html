@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <title>タイトル</title>
+    <title>{{page.title}}</title>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" href="/common/oao-dot-trans.png" type="image/png" />
+    <link rel="icon" href="/image/oao-dot-trans.png" type="image/png" />
 
     <!-- CSS -->
     <!-- Pure -->
@@ -16,7 +16,10 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
     <!-- customize -->
-    <link rel="stylesheet" href="/common/common.css" />
+    <link rel="stylesheet" href="/css/common.css" />
+    {% if page.style != null %}
+    <link rel="stylesheet" href="/css/style/{{page.style}}.css" />
+    {% endif %}
 
   </head>
   <body>
@@ -24,7 +27,7 @@
     <!-- 一番上のバー -->
     <header>
       <nav class="pure-menu pure-menu-horizontal">
-        <a class="pure-menu-heading pure-menu-selected" href="#"><i class="fa fa-home"></i> TASUTEN.GITHUB.IO</a>
+        <a class="pure-menu-heading pure-menu-selected" href="/"><i class="fa fa-home"></i> TASUTEN.GITHUB.IO</a>
 
         <ul class="pure-menu-list">
           <li class="pure-menu-item"><a href="/profile/" class="pure-menu-link">Profile</a></li>
@@ -51,7 +54,7 @@
     <!-- 上のバーここまで -->
 
     <main>
-    ここにメインコンテンツ
+    {{content}}
     </main>
 
   </body>

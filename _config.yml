@@ -1,2 +1,10 @@
 exclude:
   [ "vendor/", ".bundle/", "Gemfile*", "/README.md"]
+
+defaults:
+  -
+    scope:
+      path: "" # all file
+    values:
+      layout: "default"
+
