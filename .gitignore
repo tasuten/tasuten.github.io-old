@@ -3,7 +3,7 @@ vendor/
 .bundle/
 Gemfile.lock
 
-# jekyl
+# jekyll
 _site/
 .sass-cache/
 .jekyll-metadata

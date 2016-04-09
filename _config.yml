@@ -1,6 +1,7 @@
 exclude:
   [ "vendor/", ".bundle/", "Gemfile*", "/README.md"]
 
+# default template is _layouts/default.html
 defaults:
   -
     scope:
