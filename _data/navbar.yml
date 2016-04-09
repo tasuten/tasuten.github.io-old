@@ -1,13 +1,9 @@
 - title: Profile
   url: "/profile/"
+- title: Materials
+  url: "/materials/"
 - Fonts:
   - title: Anacrayon
     url: "/fonts/anacrayon/"
   - title: yonyon
     url: "/fonts/yonyon/"
-- Materials:
-  - title: Languages
-    url: "/materials/languages/"
-  - title: Security
-    url: "/materials/security/"
-
