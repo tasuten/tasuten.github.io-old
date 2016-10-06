@@ -23,6 +23,9 @@
   font-size: 150%;
 }
 
+ul#sns-icons {
+  padding: 0px;
+}
 
 #sns-icons > li {
   display: inline;
