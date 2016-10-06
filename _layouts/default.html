@@ -27,7 +27,8 @@
     <header>
       <nav id="menuBar" class="pure-menu pure-menu-horizontal">
 
-        {% if  page.url == "/" # トップページの時だけハイライト %}
+        {% comment %} トップページのときだけハイライト {% endcomment %}
+        {% if  page.url == "/" %}
         <a class="pure-menu-heading pure-menu-selected" href="/"><i class="fa fa-home"></i> TASUTEN.GITHUB.IO</a>
         {% else %}
         <a class="pure-menu-heading" href="/"><i class="fa fa-home"></i> TASUTEN.GITHUB.IO</a>
@@ -35,14 +36,14 @@
 
 
         <ul class="pure-menu-list">
-          {% for elem in site.data.navbar # _data/navbar.yml %}
-            {% if elem.title # 子要素を持たない場合 %}
+          {% for elem in site.data.navbar %} {% comment %} _data/navbar.yaml {% endcomment %}
+            {% if elem.title %} {% comment %} 子要素を持たない場合 {% endcomment %}
               {% if elem.url == page.url %}
               <li class="pure-menu-item"><a href="{{elem.url}}" class="pure-menu-selected pure-menu-link">{{elem.title}}</a></li>
               {% else %}
               <li class="pure-menu-item"><a href="{{elem.url}}" class="pure-menu-link">{{elem.title}}</a></li>
               {% endif %}
-            {% else # 子要素を持つ場合ホバーメニュー %}
+            {% else %} {% comment %} 子要素を持つ場合ホバーメニュー {% endcomment %}
               {% for list in elem %}
               <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
                 <a href="#" id="menuLink{{list[0]}}" class="pure-menu-link">{{list[0]}}</a>
