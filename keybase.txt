@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/tasuten
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tasuten.github.io
+  * I am tasuten (https://keybase.io/tasuten) on keybase.
+  * I have a public key ASAXdhagrdYF0696SgL34-x-L2cfwXon6BvIbr6tcZrGewo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120177616a0add605d3af7a4a02f7e3ec7e2f671fc17a27e81bc86ebead719ac67b0a",
+            "host": "keybase.io",
+            "kid": "0120177616a0add605d3af7a4a02f7e3ec7e2f671fc17a27e81bc86ebead719ac67b0a",
+            "uid": "74de44ca44d15fe59b83f22f3e48c719",
+            "username": "tasuten"
+        },
+        "service": {
+            "hostname": "tasuten.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.22"
+    },
+    "ctime": 1494179269,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1494179068,
+        "hash": "0bc8072dd486154f7fcbf085dfb6d4b346d2c57d1211200e6ef529516f05c5919ec071b429e157e09ba1e9ee31b76cc79becdb4dca6d2ac92d7db52be2cd9f9d",
+        "seqno": 1057421
+    },
+    "prev": "0a3d04ac087195d5ff5f0528e67c81d46dcafb5da8720b806a1879122c74e6f2",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgF3YWoK3WBdOvekoC9+Psfi9nH8F6J+gbyG6+rXGaxnsKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMTc3NjE2YTBhZGQ2MDVkM2FmN2E0YTAyZjdlM2VjN2UyZjY3MWZjMTdhMjdlODFiYzg2ZWJlYWQ3MTlhYzY3YjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMTc3NjE2YTBhZGQ2MDVkM2FmN2E0YTAyZjdlM2VjN2UyZjY3MWZjMTdhMjdlODFiYzg2ZWJlYWQ3MTlhYzY3YjBhIiwidWlkIjoiNzRkZTQ0Y2E0NGQxNWZlNTliODNmMjJmM2U0OGM3MTkiLCJ1c2VybmFtZSI6InRhc3V0ZW4ifSwic2VydmljZSI6eyJob3N0bmFtZSI6InRhc3V0ZW4uZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjIifSwiY3RpbWUiOjE0OTQxNzkyNjksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ5NDE3OTA2OCwiaGFzaCI6IjBiYzgwNzJkZDQ4NjE1NGY3ZmNiZjA4NWRmYjZkNGIzNDZkMmM1N2QxMjExMjAwZTZlZjUyOTUxNmYwNWM1OTE5ZWMwNzFiNDI5ZTE1N2UwOWJhMWU5ZWUzMWI3NmNjNzliZWNkYjRkY2E2ZDJhYzkyZDdkYjUyYmUyY2Q5ZjlkIiwic2Vxbm8iOjEwNTc0MjF9LCJwcmV2IjoiMGEzZDA0YWMwODcxOTVkNWZmNWYwNTI4ZTY3YzgxZDQ2ZGNhZmI1ZGE4NzIwYjgwNmExODc5MTIyYzc0ZTZmMiIsInNlcW5vIjo3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQJDF87uieyDxD8w8C5/XY9MPeAdgB0ltvljn2iRKr2gaF+ufb/98KLEx0LbkBc7XA3utXTE/jLyS/AuO46s/uguoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDos+aderwTIEajTtd0rm/e8F+HcBQTba/xSgdGUDkJIqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tasuten
+
+==================================================================
